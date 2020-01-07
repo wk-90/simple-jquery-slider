@@ -3,7 +3,7 @@ $(function(){
 
 // Variables ----------------------------------------------------------
     var $carouselList = $("#carousel ul");
-    $slides = $carouselList.find("li")
+    var $slides = $carouselList.find("li")
     var $dots = $('.dots span');
 
     var animationSpeed = 1000;
